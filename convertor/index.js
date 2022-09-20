@@ -5,40 +5,40 @@ document.querySelector('.btn-change1').addEventListener('click', () => {
     document.querySelector('.convert1-hiden').style = 'display: flex;';
     document.querySelector('.convert1').style = 'display: none;';
     check = false;
-})
+});
 
 document.querySelector('.btn-change1-back').addEventListener('click', () => {
     document.querySelector('.convert1-hiden').style = 'display: none;';
     document.querySelector('.convert1').style = 'display: flex;';
     check = true;
-})
+});
 
 document.querySelector('.btn-change2').addEventListener('click', () => {
     document.querySelector('.convert2-hiden').style = 'display: flex;';
     document.querySelector('.convert2').style = 'display: none;';
     check = false;
-})
+});
 
 
 document.querySelector('.btn-change2-back').addEventListener('click', () => {
     document.querySelector('.convert2-hiden').style = 'display: none;';
     document.querySelector('.convert2').style = 'display: flex;';
     check = true;
-})
+});
 
 
 document.querySelector('.btn-change3').addEventListener('click', () => {
     document.querySelector('.convert3-hiden').style = 'display: flex;';
     document.querySelector('.convert3').style = 'display: none;';
     check = false;
-})
+});
 
 
 document.querySelector('.btn-change3-back').addEventListener('click', () => {
     document.querySelector('.convert3-hiden').style = 'display: none;';
     document.querySelector('.convert3').style = 'display: flex;';
     check = true;
-})
+});
 
 
 for (let i = 0; i < document.querySelectorAll('.convert-btn1').length; i++) {
